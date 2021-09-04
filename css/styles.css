@@ -47,83 +47,53 @@ section {
     padding: 100px;
 }
 
-.banner {
-    background: url(/img/banner.jpg) no-repeat center;
-    background-size: cover;
-    height: 782px;
-    overflow: hidden;
-}
-
-.banner .bannerBx {
-    width: 800px;
+header {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.1);
 }
 
-.banner .bannerBx .title {
-    margin: 25px 10px;
-    padding: 20px 0;
+.header {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.banner .bannerBx .title h1 {
-    font-size: 4rem;
-    color: #fafafa;
-
-    transition: 1s;
+.header h1 {
+    text-transform: uppercase;
+    float: left;
+    font-weight: 700;
 }
 
-.banner .bannerBx .title span {
-    font-weight: 400;
-    font-size: 2.55rem;
-    color: #fafafa;
+.header ul {
+    display: flex;
+    align-items: flex-end;
+    float: right;
+    list-style: none;
 }
 
-.banner .bannerBx .text {
-    margin: 25px 10px;
-    max-width: 100%;
-    padding: 10px 0;
+.header ul li {
+    margin-right: 30px;
 }
 
-.banner .bannerBx .btn {
-    background: #46a7eb;
+.header ul li a {
     border: none;
     border-radius: 10px;
-    width: 120px;
-    height: 50px;
-    font-size: 16px;
-    cursor: pointer;
-
-    transition: .6s;
-}
-
-.banner .bannerBx .btn:hover {
-    background: #e5463e;
-}
-
-.banner .bannerBx .btn a {
     text-decoration: none;
-    color: #f0ffff;
-}
-
-/* ========= ABOUT ========= */
-
-.about {
-    align-items: center;
-}
-
-.heading {
-    color: ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #161616;
     font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    background: transparent;
 }
 
-.about .aboutBx {
-    display: flex;
-    align-items: center;
-    max-width: 45%;
+.banner {
+    background: url(../img/banner.jpg) center;
+    background-size: cover;
+    width: 100%;
 }
